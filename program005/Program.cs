@@ -1,12 +1,11 @@
-﻿Console.WriteLine("Введите имя пользователя ");
-string username = Console.ReadLine();
-
-if (username == "Маша")
+﻿Console.WriteLine("Вычисление длины пути торможения автомобиля ");
+Console.Write("Введите начальную скорость авто (м/c) = ");
+int v0 = Convert.ToInt32(Console.ReadLine());
+if (string != " ")
 {
-    Console.WriteLine("Неужели , это же МАШААААААААААА!!!!!!!!!!");
+    Console.WriteLine("Введите число");
 }
-else 
-{
-    Console.Write("СаламалейКУУМ, ");
-    Console.WriteLine(username);
-}
+int formul = 0;
+formul = v0 * v0 / 10;
+Console.Write("До полной остановки автомобиль пройдёт = ");
+Console.Write(formul);

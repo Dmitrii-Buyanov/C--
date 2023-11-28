@@ -19,7 +19,7 @@ array[i] = Input($"Введите элемент массива №{i}: ");
 return array;
 }
 
-void PrintArray(int[] array)
+void PrintArray(int[] array)    
 {
 foreach (int num in array)
 {
